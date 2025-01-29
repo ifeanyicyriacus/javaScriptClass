@@ -4,6 +4,6 @@ const book = {
     yearPublished: 0825
 }
 
-let {author , title } = book
+let {title, author} = book
 
 console.log(title + " by " + author)
