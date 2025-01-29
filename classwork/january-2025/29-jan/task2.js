@@ -6,6 +6,10 @@ const car = {
     year: 2021
 }
 
-for (const attribute in car) {
-  console.log(`${attribute}: ${car[attribute]}`);
+function getCarAttributes(car){
+    for (const attribute in car) {
+      console.log(`${attribute}: ${car[attribute]}`);
+    }
 }
+
+getCarAttributes(car)

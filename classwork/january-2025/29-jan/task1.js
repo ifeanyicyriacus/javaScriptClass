@@ -1,7 +1,7 @@
 
 
 name = "Ifeanyi" 
-age = "29"
+age = 29
 complexion = "Fair"
 stateOfOrigin = "Imo"
 country = "Nigeria"
