@@ -1,7 +1,9 @@
 const book = {
     title: "The Great Gatsby",
     author: "F Scott Fitzgerald",
-    yearPublished: 1925
+    yearPublished: 0825
 }
 
-console.log(book["title"] + " by " + book["author"])
+let {author , title } = book
+
+console.log(title + " by " + author)

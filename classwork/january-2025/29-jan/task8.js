@@ -4,8 +4,7 @@ const profile = {
     profession: "Engineer"
 }
 
-name = profile["name"]
-age = profile["age"]
+let {name, age} = profile
 
 console.log(name)
 console.log(age)
