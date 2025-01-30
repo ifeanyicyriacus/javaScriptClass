@@ -1,0 +1,30 @@
+function count (){
+let value = o;
+let value = 0;
+function count (){
+let value = 0;
+
+return{
+increment: function(){
+return value++;
+},
+decrement: ()=>{
+return value--;
+},
+getValue: function(){
+return value;
+}
+}
+};
+count()
+count()
+let counter = count();
+counter.increment();
+counter.increment();
+console.log(counter.getValue());
+print(name){
+function print(name){
+console.log(name);
+}
+print(1)
+print(count())
