@@ -1,25 +1,4 @@
 {
-  "name": "javascriptclass",
-  "version": "1.0.0",
-  "description": "Class with Mr Chinedu (Semicolon)",
-  "keywords": [
-    "javaScript",
-    "project",
-    "task",
-    "completed"
-  ],
-  "homepage": "https://github.com/ifeanyicyriacus/javaScriptClass#readme",
-  "bugs": {
-    "url": "https://github.com/ifeanyicyriacus/javaScriptClass/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ifeanyicyriacus/javaScriptClass.git"
-  },
-  "license": "ISC",
-  "author": "Ifeanyi Cyriacus",
-  "type": "commonjs",
-  "main": "jest.config.js",
   "scripts": {
     "test": "jest"
   }

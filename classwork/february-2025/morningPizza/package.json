@@ -1,0 +1,24 @@
+{
+  "name": "morningpizza",
+  "version": "1.0.0",
+  "description": "A tea served tasty and hot by Mr Chinedu",
+  "keywords": [
+    "quick",
+    "quiz"
+  ],
+  "homepage": "https://github.com/ifeanyicyriacus/javaScriptClass/tree/master#readme",
+  "bugs": {
+    "url": "https://github.com/ifeanyicyriacus/javaScriptClass/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifeanyicyriacus/javaScriptClass.git#master"
+  },
+  "license": "ISC",
+  "author": "Ifeanyi Cyriacus",
+  "type": "commonjs",
+  "main": "morningPizza.js",
+  "scripts": {
+    "test": "jest"
+  }
+}
