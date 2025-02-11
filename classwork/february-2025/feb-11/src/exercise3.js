@@ -5,7 +5,7 @@ const bankAccount = {
         bankAccount.balance += amount;
     },
     withdraw: (amount) => {
-        if (amount < bankAccount.balance) {
+        if (amount > bankAccount.balance) {
             throw new Error('Account balance is insufficient');
         }
         bankAccount.balance -= amount;
