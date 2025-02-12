@@ -1,11 +1,5 @@
-const findExpensiveProducts = (products, threshold) => {
-    let result = [];
-    products.forEach((product) => {
-        if (threshold < product.price) {
-            result.push(product);
-        }
-    });
-    return result;
-}
+const findExpensiveProducts = (arr, threshold) => (
+    arr.filter((product) => product.price > threshold)
+);
 
 module.exports = {findExpensiveProducts};
