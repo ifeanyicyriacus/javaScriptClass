@@ -10,13 +10,17 @@ let state5     = "Akwa-Ibom";
 let state6     = "Lagos";
 let wrongState = "New York";
 
-test("Nigeria State Geo-Political Zones Functions Return Correct Zone Value", () => {
+test("that getGeoPoliticalZoneByState Functions Return Correct Zone Value", () => {
     expect(getGeoPoliticalZoneByState(state1)).toEqual(NigeriaStateGeoPoliticalZones.SOUTH_EAST);
     expect(getGeoPoliticalZoneByState(state2)).toEqual(NigeriaStateGeoPoliticalZones.NORTH_CENTRAL);
     expect(getGeoPoliticalZoneByState(state3)).toEqual(NigeriaStateGeoPoliticalZones.NORTH_EAST);
     expect(getGeoPoliticalZoneByState(state4)).toEqual(NigeriaStateGeoPoliticalZones.NORTH_WEST);
     expect(getGeoPoliticalZoneByState(state5)).toEqual(NigeriaStateGeoPoliticalZones.SOUTH_SOUTH);
     expect(getGeoPoliticalZoneByState(state6)).toEqual(NigeriaStateGeoPoliticalZones.SOUTH_WEST);
+});
+
+test("that getGeoPoliticalZoneByState function throw error for wrong state", () => {
+    expect(() => getGeoPoliticalZoneByState(wrongState)).toThrow(Error);
 })
 
 
