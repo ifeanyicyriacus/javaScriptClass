@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f174d4e8-bf13-4133-9e41-9b4bac9924ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/.idea/nigeria_state_and_geo_political_zone.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/src/enums/nigeria_state_geo_political_zones.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/src/enums/nigeria_state_geo_political_zones_functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/test/enums/nigeria_State_geo_political_zones_functions.test.js" afterDir="false" />
+    <list default="true" id="f174d4e8-bf13-4133-9e41-9b4bac9924ff" name="Changes" comment="Working on JavaScript version of NigeriaStateGeoPoliticalZones&#10;&#10;- working on the find zone function">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/src/enums/nigeria_state_geo_political_zones.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/src/enums/nigeria_state_geo_political_zones.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/src/enums/nigeria_state_geo_political_zones_functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/src/enums/nigeria_state_geo_political_zones_functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/test/enums/nigeria_State_geo_political_zones_functions.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/test/enums/nigeria_State_geo_political_zones_functions.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +73,7 @@
     "nodejs_package_manager_path": "npm",
     "npm.test.executor": "Run",
     "settings.editor.selected.configurable": "swagger",
+    "ts.external.directory.path": "/home/civm/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -128,11 +132,24 @@
       <option name="presentableId" value="Default" />
       <updated>1739722975837</updated>
       <workItem from="1739722976765" duration="2781000" />
-      <workItem from="1739726526256" duration="2941000" />
+      <workItem from="1739726526256" duration="7660000" />
     </task>
+    <task id="LOCAL-00001" summary="Working on JavaScript version of NigeriaStateGeoPoliticalZones&#10;&#10;- working on the find zone function">
+      <option name="closed" value="true" />
+      <created>1739729694953</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739729694953</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Working on JavaScript version of NigeriaStateGeoPoliticalZones&#10;&#10;- working on the find zone function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on JavaScript version of NigeriaStateGeoPoliticalZones&#10;&#10;- working on the find zone function" />
   </component>
 </project>

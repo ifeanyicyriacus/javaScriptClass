@@ -9,6 +9,4 @@ const NigeriaStateGeoPoliticalZones = Object.freeze({
 
 });
 
-module.exports = {NigeriaStateGeoPoliticalZones}
-
-
+module.exports = {NigeriaStateGeoPoliticalZones};
