@@ -23,5 +23,15 @@ test("that getGeoPoliticalZoneByState function throw error for wrong state", () 
     expect(() => getGeoPoliticalZoneByState(wrongState)).toThrow(Error);
 })
 
+test("that getGeoPoliticalZoneByState function return correct zone as readable string", () => {
+    expect(String(getGeoPoliticalZoneByState(state1))).toEqual("South-East");
+    expect(String(getGeoPoliticalZoneByState(state2))).toEqual("North-Central");
+    expect(String(getGeoPoliticalZoneByState(state3))).toEqual("North-East");
+    expect(String(getGeoPoliticalZoneByState(state4))).toEqual("North-West");
+    expect(String(getGeoPoliticalZoneByState(state5))).toEqual("South-South");
+    expect(String(getGeoPoliticalZoneByState(state6))).toEqual("South-West");
+
+})
+
 
 
