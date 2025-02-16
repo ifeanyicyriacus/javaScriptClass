@@ -1,0 +1,13 @@
+{
+  "name": "nigeria_state_and_geo_political_zone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "private": true,
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
