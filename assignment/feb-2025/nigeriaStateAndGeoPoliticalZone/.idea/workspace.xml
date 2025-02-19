@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f174d4e8-bf13-4133-9e41-9b4bac9924ff" name="Changes" comment="Working on JavaScript version of NigeriaStateGeoPoliticalZones&#10;&#10;- Nigeria State Geo-Political Zones Functions Return Correct Zone Value - passed">
+    <list default="true" id="f174d4e8-bf13-4133-9e41-9b4bac9924ff" name="Changes" comment="2/3 pass: Working on JavaScript version of NigeriaStateGeoPoliticalZones.&#10;&#10;- that getGeoPoliticalZoneByState Functions Return Correct Zone Value - passed&#10;- that getGeoPoliticalZoneByState function throw error for wrong state - passed&#10;&#10;failed:&#10;&quot;&quot;&quot;&#10;    Error: expect(received).toEqual(expected) // deep equality&#10;    &#10;    Expected: &quot;South-East&quot;&#10;    Received: &quot;Abia,Anambra,Ebonyi,Enugu,Imo&quot;&#10;&quot;&quot;&quot;&#10;-I cannot call the toString method of the object when printing Enum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/test/enums/nigeria_State_geo_political_zones_functions.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/test/enums/nigeria_State_geo_political_zones_functions.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,31 +49,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Jest.Nigeria State Geo-Political Zones Functions Return Correct Zone Value.executor": "Run",
-    "Jest.nigeria_State_geo_political_zones_functions.test.js.executor": "Run",
-    "Node.js.index.js.executor": "Run",
-    "Node.js.main.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "22.14.0",
-    "javascript.nodejs.core.library.typings.version": "22.13.4",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/home/civm/Documents/Dynamite/javaScriptClass/assignment/feb-2025/nigeria_state_and_geo_political_zone/node_modules/jest",
-    "nodejs_interpreter_path": "/home/civm/.config/JetBrains/WebStorm2024.3/node/versions/22.14.0/bin/node",
-    "nodejs_package_manager_path": "npm",
-    "npm.test.executor": "Run",
-    "settings.editor.selected.configurable": "swagger",
-    "ts.external.directory.path": "/home/civm/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Jest.Nigeria State Geo-Political Zones Functions Return Correct Zone Value.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.nigeria_State_geo_political_zones_functions.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.14.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.13.4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/home/civm/Documents/Dynamite/javaScriptClass/assignment/feb-2025/nigeria_state_and_geo_political_zone/node_modules/jest&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/home/civm/.config/JetBrains/WebStorm2024.3/node/versions/22.14.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.test.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;swagger&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/civm/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../nigeria_state_and_geo_political_zone/test/enums" />
