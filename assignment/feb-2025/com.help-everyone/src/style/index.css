@@ -1,0 +1,52 @@
+:root {
+    --brand-color: #2995E2;
+    --text-color-selected: #242424;
+    --text-color-primary: #3F3F3F;
+    --text-color-light: #4F4F4F;
+    --text-color-faded:#878787;
+
+    --primary-btn-text-color: #FFFFFF;
+    --secondary-btn-text-color: #313131;
+
+    --background-color: #F5F5F5;
+
+}
+
+body {
+    background-color: #F5F5F5;
+    color: #3F3F3F
+}
+
+h1 {
+    color: #242424;
+}
+
+.primary {
+    color: #2995E2;
+}
+
+.secondary {
+    color: #3F3F3F;
+}
+
+ul>li{
+    text-underline: none;
+    /*li: 78em;*/
+}
+
+nav>ul {
+    /*list-style-type: none;*/
+    display: flex;
+}
+
+header, header>nav{
+    display: flex;
+    justify-content: space-around;
+    border: solid red;
+    align-items: center;
+}
+
+.image-sm{
+    height: 250px;
+    width: 250px;
+}
