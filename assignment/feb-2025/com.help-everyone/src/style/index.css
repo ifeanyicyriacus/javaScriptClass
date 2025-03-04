@@ -1,43 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: red solid 1px;
 }
 
 body {
-    margin: 33px 62px;
 }
 
-header {
     display: flex;
-    height: 33px;
-    font-size: medium;
 }
-
-.homepage{
-    flex-basis: 20%;
-}
-
-.homepage-img {
-    width: 27px;
-    height: 27px;
-}
-
-.homepage-txt {
 
 }
 
-.nav-menu {
-    flex-basis: 70%;
 }
-.nav-menu ul li {
-    list-style: none;
-    display: inline;
-    flex-basis: 100%;
-}
-
-.signup {
-    flex-basis: 10%;
-}
-
