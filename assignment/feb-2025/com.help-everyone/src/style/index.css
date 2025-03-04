@@ -1,52 +1,43 @@
-:root {
-    --brand-color: #2995E2;
-    --text-color-selected: #242424;
-    --text-color-primary: #3F3F3F;
-    --text-color-light: #4F4F4F;
-    --text-color-faded:#878787;
-
-    --primary-btn-text-color: #FFFFFF;
-    --secondary-btn-text-color: #313131;
-
-    --background-color: #F5F5F5;
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: red solid 1px;
 }
 
 body {
-    background-color: #F5F5F5;
-    color: #3F3F3F
+    margin: 33px 62px;
 }
 
-h1 {
-    color: #242424;
-}
-
-.primary {
-    color: #2995E2;
-}
-
-.secondary {
-    color: #3F3F3F;
-}
-
-ul>li{
-    text-underline: none;
-    /*li: 78em;*/
-}
-
-nav>ul {
-    /*list-style-type: none;*/
+header {
     display: flex;
+    height: 33px;
+    font-size: medium;
 }
 
-header, header>nav{
-    display: flex;
-    justify-content: space-around;
-    border: solid red;
-    align-items: center;
+.homepage{
+    flex-basis: 20%;
 }
 
-.image-sm{
-    height: 250px;
-    width: 250px;
+.homepage-img {
+    width: 27px;
+    height: 27px;
 }
+
+.homepage-txt {
+
+}
+
+.nav-menu {
+    flex-basis: 70%;
+}
+.nav-menu ul li {
+    list-style: none;
+    display: inline;
+    flex-basis: 100%;
+}
+
+.signup {
+    flex-basis: 10%;
+}
+

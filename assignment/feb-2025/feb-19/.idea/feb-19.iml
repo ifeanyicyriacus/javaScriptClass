@@ -11,5 +11,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="feb-21" />
     <orderEntry type="module" module-name="data.structure" />
+    <orderEntry type="module" module-name="custom-data-structure" />
   </component>
 </module>

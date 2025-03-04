@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../../javaClass/assignment/jan-2025/custom-data-structure/custom-data-structure.iml" filepath="$PROJECT_DIR$/../../../../javaClass/assignment/jan-2025/custom-data-structure/custom-data-structure.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../classwork/february-2025/data.structure/.idea/data.structure.iml" filepath="$PROJECT_DIR$/../../../classwork/february-2025/data.structure/.idea/data.structure.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/feb-19.iml" filepath="$PROJECT_DIR$/.idea/feb-19.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../../classwork/february-2025/feb-21/.idea/feb-21.iml" filepath="$PROJECT_DIR$/../../../classwork/february-2025/feb-21/.idea/feb-21.iml" />

@@ -3,9 +3,12 @@ const getHcf = (arr) =>{
     let result = [];
 
     let factor = 2;
-    while (true){
+    let isCalculating = true;
+
+    while (isCalculating){
         let check = 0;
         let tempArray = [];
+
         for (let i = 0; i < newArr.length ; i++){
             if (newArr[i] % factor === 0){
                 tempArray.push(newArr[i] / factor);
@@ -19,7 +22,7 @@ const getHcf = (arr) =>{
         } else if (factor < max){
             factor++;
         } else {
-            break;
+            isCalculating = false;
         }
     }
     return result;
