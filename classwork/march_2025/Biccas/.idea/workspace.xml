@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12c70ce5-d179-4fb4-b66e-227a5f326b71" name="Changes" comment="Javascript checkpoint">
-      <change beforePath="$PROJECT_DIR$/../../../assignment/feb-2025/com.help-everyone/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../assignment/feb-2025/com.help-everyone/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../assignment/feb-2025/com.help-everyone/src/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../assignment/feb-2025/com.help-everyone/src/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../assignment/feb-2025/feb-19/.idea/feb-19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../assignment/feb-2025/feb-19/.idea/feb-19.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../assignment/feb-2025/feb-19/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../assignment/feb-2025/feb-19/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../assignment/feb-2025/feb-19/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../assignment/feb-2025/feb-19/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../assignment/feb-2025/feb-19/src/Hcf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../assignment/feb-2025/feb-19/src/Hcf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../assignment/feb-2025/feb-19/test/Hcf.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../assignment/feb-2025/feb-19/test/Hcf.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../february-2025/data.structure/src/UltimateCollection.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../february-2025/data.structure/src/UltimateCollection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../february-2025/feb-25/DOM" beforeDir="false" afterPath="$PROJECT_DIR$/../../february-2025/feb-25/DOM" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741092055004</updated>
-      <workItem from="1741092056221" duration="15202000" />
+      <workItem from="1741092056221" duration="15475000" />
     </task>
     <task id="LOCAL-00001" summary="Help Everyone Website design">
       <option name="closed" value="true" />
@@ -104,10 +97,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Biccas Web project&#10;&#10;checkpoint at day end" />
     <MESSAGE value="Help Everyone Website design" />
     <MESSAGE value="Javascript checkpoint" />
     <option name="LAST_COMMIT_MESSAGE" value="Javascript checkpoint" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
