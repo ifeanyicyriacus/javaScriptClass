@@ -15,7 +15,7 @@ const Counter = () => {
     function increaseCounter() {
             dispatch(increment())
     }
-
+    // 62.173.45.70
     function resetCounter() {
         dispatch(reset())
     }
