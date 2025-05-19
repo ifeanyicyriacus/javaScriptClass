@@ -6,7 +6,7 @@ import NowPlaying from "../components/movies/NowPlaying.jsx";
 
 const router = createBrowserRouter([
     {
-        path : "/",
+        path : "/signup",
         element : <SignUp/>,
     }, {
         path : "/signup",
