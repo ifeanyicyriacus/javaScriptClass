@@ -1,20 +1,9 @@
-import Login from "./components/auth/login/login.jsx";
-import SignUp from "./components/auth/signUp/SignUp.jsx";
-import Footer from "./components/footer/Footer.jsx";
-import Header from "./components/header/Header.jsx";
+import router from "./router/routes.jsx";
+import {RouterProvider} from "react-router";
 
 function App() {
     return (
-        <>
-            <Header/>
-            <br/>
-            <Login/>
-            <br/>
-            <SignUp/>
-            <br/>
-            <Footer/>
-        </>
-
+        <RouterProvider router={router}></RouterProvider>
     )
 }
 

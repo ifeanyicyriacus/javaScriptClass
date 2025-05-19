@@ -2,8 +2,10 @@ import React, {useState} from "react";
 import CustomButton from "../../../reuseable/CustomButton.jsx";
 import styles from "./signUp.module.css";
 import {useSignUpMutation} from "../../../service/userAuthApi.jsx";
+import {Link, useNavigate} from "react-router";
 
 const SignUp = () => {
+    const navigate = useNavigate();
     const userDetail = {
         "firstName" : "",
         "lastName" : "",
@@ -26,6 +28,9 @@ const SignUp = () => {
         event.preventDefault();
         try {
             const response = await signUp(userData).unwrap()
+            if (response.id) {
+                navigate("/login")
+            }
             console.log(response);
         } catch (error) {
             console.log(error);
@@ -55,6 +60,7 @@ const SignUp = () => {
                            type="password" name="password" id="" placeholder="Password"
                            onChange={handleInputChange}/>
                     <CustomButton text="Sign up"/>
+                    <span>Already have an account: </span><Link to="/login">Log in</Link>
                 </form>
             </section>
         </>

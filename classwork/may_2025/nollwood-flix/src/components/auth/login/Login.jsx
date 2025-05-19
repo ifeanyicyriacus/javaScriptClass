@@ -1,15 +1,16 @@
 import React from "react";
 import CustomButton from "../../../reuseable/CustomButton.jsx";
 import styles from "./login.module.css";
+import {Link} from "react-router";
 
 const Login = () => {
-    const handleChange =(event) => {
+    const handleChange = (event) => {
         const {name, value} = event.target;
-        setLoginData((prevState) => ({...prevState, [name]: value.trim()}));
+        setLoginData((prevState) => ({...prevState, [name] : value.trim()}));
         console.log(loginData)
     }
 
-    const loginDetails = {email: "", password: "" };
+    const loginDetails = {email : "", password : ""};
     const [loginData, setLoginData] = React.useState({loginDetails})
 
     return (
@@ -22,6 +23,7 @@ const Login = () => {
                     <input type="password" name="password" id="" placeholder="Password"
                            onChange={handleChange}/>
                     <CustomButton text="Log in"/>
+                    <span>Create new account: </span><Link to="/signup">Sign up</Link>
                 </form>
             </section>
         </>
