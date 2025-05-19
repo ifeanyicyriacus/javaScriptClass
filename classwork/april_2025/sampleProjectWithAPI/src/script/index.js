@@ -2,7 +2,7 @@ const PRODUCT_URL = "https://fakestoreapi.com/products";
 
 const productContainer = document.querySelector(".products");
 // const productWrapper = document.getElementsByClassName("products");
-
+//
 // // using promise
 // const getProducts = (url) => {
 //     fetch(url)
