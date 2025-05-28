@@ -1,4 +1,4 @@
-import { Outlet } from "react-router";
+import {Outlet} from "react-router";
 import Header from "../header/Header";
 import SideBar from "../sidebar/Sidebar.jsx";
 import Footer from "../footer/Footer.jsx";

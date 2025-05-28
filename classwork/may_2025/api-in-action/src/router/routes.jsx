@@ -9,12 +9,12 @@ import NowPlaying from "../components/movies/NowPlaying.jsx";
 import Login from "../components/auth/login/Login.jsx";
 import SignUp from "../components/auth/signUp/SignUp.jsx";
 
-import Product from "../components/product/Product.jsx"
+import Product from "../reusable/Product.jsx"
 import Products from "../components/product/Products.jsx"
 import CreateProduct from "../components/product/CreateProduct.jsx"
 
-import Recipes from "../components/Receipe/Receipes.jsx"
-import Recipe from "../components/Receipe/Receipe.jsx"
+import Recipes from "../components/Receipe/Recipes.jsx"
+import Recipe from "../reusable/Recipe.jsx"
 
 const router = createBrowserRouter([
     {
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
         element : <MovieLayout/>,
         children : [
             {
-                path : "",
+                path : "/movies",
                 element : <NowPlaying/>,
             }
         ]
@@ -31,10 +31,10 @@ const router = createBrowserRouter([
         element : <AuthLayout/>,
         children : [
             {
-                path : "/login",
+                path : "/auth/login",
                 element : <Login/>,
             }, {
-                path : "/signup",
+                path : "/auth/signup",
                 element : <SignUp/>,
             }
         ]
@@ -43,13 +43,13 @@ const router = createBrowserRouter([
         element : <ProductLayout/>,
         children : [
             {
-                path : "/:id",
+                path : "/products/:id",
                 element : <Product/>
             }, {
-                path : "",
+                path : "/products",
                 element : <Products/>
             }, {
-                path : "/add",
+                path : "/products/add",
                 element : <CreateProduct/>
             }
         ]
@@ -58,13 +58,13 @@ const router = createBrowserRouter([
         element : <RecipeLayout/>,
         children : [
             {
-                path : "",
+                path : "/recipes",
                 element : <Recipes/>
             }, {
-                path : "/:id",
+                path : "/recipes/:id",
                 element : <Recipe/>
             }, {
-                path : "/search",
+                path : "/recipes/search",
                 element : <Recipes/>
             }
         ]

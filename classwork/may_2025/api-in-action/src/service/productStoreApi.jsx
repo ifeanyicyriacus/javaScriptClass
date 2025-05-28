@@ -6,9 +6,9 @@ export const productStoreApiSlice = createApi({
     reducerPath : "productStoreApi", baseQuery : fetchBaseQuery({
         baseUrl : `${fakeStoreApiUrl}`
     }), endpoints : (builder) => ({
-        getProductById : builder.query({
-            query : () => `/products/`,
-        }),
+        // getProductById : builder.query({
+        //     query : () => `/products/`,
+        // }),
         getAllProducts : builder.query({
             query : () => `/products`,
         }),
@@ -24,7 +24,7 @@ export const productStoreApiSlice = createApi({
 })
 
 export const {
-    getProductByIdQuery,
-    getAllProductsQuery,
+    useGetProductByIdQuery,
+    useGetAllProductsQuery,
     useAddProductMutation
 } = productStoreApiSlice

@@ -3,8 +3,7 @@ import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
 
 const url = "https://dummyjson.com";
 export const userAuthApiSlice = createApi({
-    reducerPath : "userAuthApi" +
-        "",
+    reducerPath : "userAuthApi",
     baseQuery : fetchBaseQuery({
         baseUrl : `${url}`
     }),
@@ -30,31 +29,3 @@ export const userAuthApiSlice = createApi({
 })
 
 export const {useSignUpMutation, useSignInMutation} = userAuthApiSlice;
-
-
-// fetch('https://dummyjson.com/users/add', {
-//     method: 'POST',
-//     headers: { 'Content-Type': 'application/json' },
-//     body: JSON.stringify({
-//         firstName: 'Muhammad',
-//         lastName: 'Ovi',
-//         age: 250,
-//         /* other user data */
-//     })
-// })
-//     .then(res => res.json())
-//     .then(console.log);
-
-
-// fetch('https://dummyjson.com/user/login', {
-//     method: 'POST',
-//     headers: { 'Content-Type': 'application/json' },
-//     body: JSON.stringify({
-//
-//         username: 'emilys',
-//         password: 'emilyspass',
-//         expiresInMins: 30, // optional, defaults to 60
-//     }),
-// })
-//     .then(res => res.json())
-//     .then(console.log);

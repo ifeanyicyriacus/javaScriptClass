@@ -18,9 +18,9 @@ export const recipesApiSlice = createApi({
 })
 
 export const {
-    useGetProductQuery,
-    useGetProductsQuery,
-    useAddProductMutation
+    useGetRecipesByIdQuery,
+    useGetAllRecipesQuery,
+    useFindRecipesByNameQuery
 } = recipesApiSlice
 
 
